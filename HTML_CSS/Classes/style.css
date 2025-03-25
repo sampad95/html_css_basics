@@ -1,0 +1,231 @@
+/* Latter selectros gets preference over previous selectors */
+
+/* universal selector */
+/* latter element selector gets more preference and overrides the previous universal selector */
+
+/* 
+*{                                      
+    color:rgb(13, 111, 118);   
+    font-style: italic;
+}
+
+button{                             
+    color:crimson;
+    background-color: white;
+}  
+*/
+
+
+
+/*
+ h1{
+    color:rgb(13, 111, 118);
+}
+
+p{
+    color:maroon;
+}
+
+button{
+    color:crimson;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(204, 211, 215);
+} 
+*/
+
+
+/* latter id selector gets more preference and overrides previous element selector */
+/* 
+h1{
+    color:rgb(13, 111, 118);
+}
+
+#id2{
+    color:rgb(223, 25, 31);
+    font-style: italic;
+} 
+*/
+
+/* latter class selector gets more preference and overrides previous element selector */
+/* 
+h1{
+    color:rgb(13, 111, 118);
+}
+
+.cls1{
+    color:rgb(223, 25, 31);
+    font-style: italic;
+}
+*/
+
+
+
+/* #box{
+    color: azure;
+    background-color: blue;
+} */
+
+/* .heading{
+    color: red;
+} */
+
+/* h1, h2, h3{
+    color:rgb(0, 255, 110);
+} */
+
+/* button{
+    background-color: green;
+} */
+
+
+
+/* 
+h1{
+    text-align: center;
+    text-decoration: underline green wavy;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+p{
+    text-align: left;
+}
+
+p{
+    text-align: start;
+}
+
+#p1{
+    font-family:Arial;
+}
+
+#p2{
+    font-family:cursive, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: red;
+    text-align: start;
+    text-decoration: none;
+    
+} 
+*/
+
+
+
+/* 1 in=96 px */
+/* 
+#id1{
+    line-height: 50px;
+    text-transform:capitalize;
+}
+
+
+#id2{
+    font-size: 0.2in;
+}
+
+#id3{
+    font-size: 25px;
+} 
+*/
+
+
+/* 
+*{
+    font-family: 'Times New Roman';
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
+ */
+
+
+
+/* 
+ h1{
+    width: 200px;
+    background-color: aquamarine;
+    border: 2px solid blueviolet;
+    text-align: center;
+    border-radius: 10px;
+ }
+
+ button{
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+ }
+
+ p{
+    height: 40px;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 2px;
+    padding: 20px 0px 20px 20px;
+    height: 40px;
+ }
+
+ div{
+    height: 100px;
+    background-color: pink;
+    width: 100px;
+    border-style: dashed;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin: 10px;
+ }
+ */
+
+
+ /*
+  div{
+    background-color:rgb(230, 133, 181);
+    display: inline;
+ }
+
+ a{
+    display: block;
+ } 
+*/
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+/* #box2{
+    display: none;
+    visibility: hidden;
+} */
+
+#box1{
+    background-color: rgba(0, 0, 255,1);
+}
+
+#box2{
+    background-color: rgba(0, 0, 255,0.5);
+}
+
+#box3{
+    background-color: rgba(0, 0, 255,0.25);
+}

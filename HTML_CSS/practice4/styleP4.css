@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+
+#navbar{
+    /* align-content:center; */
+    height: 60px;
+    /* width: 1000px; */
+    background-color: #0f1111;
+    border: 4px solid white;
+}
+
+#logo{
+    text-decoration: none;
+    color: #f08804;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#account, #mycart, #contUs{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    margin-right: 200px;
+}
+
+button{
+    background-color: #f08804;
+    padding: 0px 4px 0px 4px;
+}
+
+#content{
+    height: 600px;
+    background-color: azure;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color:rgb(8, 39, 64);
+} 

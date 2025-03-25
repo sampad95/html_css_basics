@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--This is my first html code-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampad Mandal</title>
+</head>
+<body>
+    <!--This is body tag-->
+    <!-- <p>Hello World!</p> -->
+     <h1>Heading1</h1>
+     <h2>Heading2</h2>
+     <h3>Heading3</h3>
+     <h4>Heading4</h4>
+     <h5>Heading5</h5>
+     <h6>Heading6</h6>
+     <h7>Heading7</h7>
+     <!-- <p>Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph</p> -->
+     <p> 
+        <b>Bold Sample paragraph</b>
+        <br />
+        <i>Italic Sample paragraph</i>
+        <br />
+        <u>Underlined Sample paragraph</u>
+        <br />
+        <br />
+        <big>Big Sample paragraph</big>
+        <br />  
+        <small>Small Sample paragraph</small>
+    </p>
+
+     <hr/>       <!-- horizontal ruller -->
+
+     <a href="https://www.researchgate.net/profile/Sampad-Mandal?ev=hdr_xprf">researchgate</a>  <!-- absolute link -->
+     <br/>
+     <a href="https://github.com/sampad95"> github</a>  <!-- absolute link -->
+     <br />
+     <a href="/hello.html">Go to hello</a>  <!-- relative link -->
+
+     <hr />     <!-- horizontal ruller -->
+
+     <img src="https://www.startertutorials.com/blog/wp-content/uploads/2018/04/python-logo.png" alt="Python" height="200"/> <!-- absolute image -->
+     <br />
+     <img src="/JS.png" alt="JavaScript" height="100"/> <!-- relative iamge -->
+
+     <hr />
+
+     <p>H<sub>2</sub>O</p>
+     <!-- <br /> -->
+     <p>3<sup>2</sup>=9</p>
+
+     <pre>                           <!-- pre tag counts spaces and next lines /> -->
+        Sample      paragraph
+        Write something
+    </pre>
+
+    <div>    <!-- Block element, takes full width, other ex: <p>,<pre>,<header>,<main>,<footer>,<article>,<h1>-<h6>,<hr>,<aside> -->
+        Hello World
+    </div>
+
+    <!-- <div>
+        <p>Swagatm</p>
+        <p>Kemon acho</p>
+    </div> -->
+
+    <span>   <!-- Inline element, takes width upto the end of sentence, other ex: <span>,<a>,<img>>,<b>,<i>,<sub>,<sup>,<u>,<big>-->
+        Hello world
+    </span>
+
+<!-- List in HTML-->
+    <!-- Unordered List -->
+
+    <!-- <ul>
+        <li>BSc
+            <ul>
+                <li>
+                Vivekananda Mahavidyalaya
+                </li>
+            </ul>
+        </li>
+        
+        <li>Msc
+            <ul>
+                <li>
+                The University of Burdwan
+                </li>
+            </ul>
+        </li>
+            
+        <li>PhD</li>
+            <ul>
+                <li>
+                Visva-Bharati
+                </li>
+            </ul>  
+        
+    </ul> -->
+
+    <!-- Ordered List -->
+
+    <ol>
+        <li>BSc
+            <ul>
+                <li>
+                Vivekananda Mahavidyalaya
+                </li>
+            </ul>  
+        </li>
+        <li>Msc</li>
+            <ul>
+                <li>
+                The University of Burdwan
+                </li>
+            </ul>
+        
+        <li>PhD
+            <ul>
+                <li>
+                Visva-Bharati
+                </li>
+            </ul> 
+        </li>
+    </ol>
+
+<!-- Table in HTML-->
+    <table>
+        <caption>
+            Student data
+        </caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th colspan="2">
+                     Marks
+                </th>
+            </tr>
+
+            <tr>
+                <th>...</th>
+                <th>...</th>
+                <th>Science</th>
+                <th>Math</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td>Sarat</td>
+                <td>1502</td>
+                <td>90</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Puja</td>
+                <td>1501</td>
+                <td>98</td>
+                <td>97</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Form in HTML-->
+    <form action="action.php">
+        <h4>Registration form</h4>
+        <input type="text" placeholder="Enter username">
+        <br>
+        <br>
+        <input type="password" placeholder="Enter password">
+        <br>
+        <br>
+    
+        <h5>Select your class</h5>
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">class XI <!--radio button for single selection-->
+        </label>
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+        <br>
+        <br>
+
+        <h5>Select three subjects</h5>
+        <label for="Math">
+            <input type="checkbox" value="Math" name="subject" id="M">Math   <!--checkbox for multiple selections-->
+        </label>
+        <label for="Phy">
+            <input type="checkbox" value="Phy" name="subject" id="PH">Physics
+        </label>
+        <label for="Chem">
+            <input type="checkbox" value="Chem" name="subject" id="CH">Chemistry
+        </label>
+        <label for="CS">
+            <input type="checkbox" value="CS" name="subject" id="CS">Computer Science
+        </label>
+
+        <br>
+        <br>
+        <h5>Select city</h5>
+        <select name="city">
+            <option value="Kol">Kolkata</option>
+            <option value="BWN">Bardhaman</option>
+            <option value="DGP">Durgapur</option>
+            <option value="ASN">Asansol</option>
+        </select>
+
+        <br>
+        <br>
+        <textarea name="Feedback" id="fd" placeholder="Give your valuable feedback here" rows="5">Feedback</textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+<!-- Class and id -->
+    <!-- <div class="group 1" id="id 1">
+
+    </div>
+
+    <div class="group 1" id="id 2">
+
+    </div> -->
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ux-UOfUgjAM?si=BpIkwsiY-uUI2-bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br>
+    <br>
+    <iframe width="560" height="315" src="https://en.wikipedia.org/wiki/Main_Page"></iframe>
+    <br>
+    <br>
+</body>
+</html>
